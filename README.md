@@ -1,29 +1,29 @@
-# 批量消除照片背景并填充白色背景
+# removebg-批量消除照片背景并填充白色背景
 
 # 介绍
 
 removebg是依赖百度AI人像分割开发的批量消除照片背景并填充白色背景
 
 # 运行环境
-python3.7+
+•python3.7+
 
-import os
+•import os
 
-import requests
+•import requests
 
-import base64
+•import base64
 
-import cv2
+•import cv2
 
-import numpy as np
+•import numpy as np
 
-from PIL import Image
+•from PIL import Image
 
-from pathlib import Path
+•from pathlib import Path
 
 
 # 注意事项：
-1、使用前需要将'client_id'和'client_secret'自行替换
+1、使用前需要注册百度AI并创建人像分割项目，将removebg.py中的'client_id'和'client_secret'替换，详情请见百度AI官网：https://ai.baidu.com/
 
 2、使用需要将removebg.py移至待处理照片同级目录
 
