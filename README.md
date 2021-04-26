@@ -42,4 +42,5 @@ $ python removebg.py
 
 # 待优化
 1、API处理照片后返回的是png格式的照片，这里是先存储png,将png转jpg,再删除png，比较耗时
+
 2、暂时不支持不同级目录处理，会报错
